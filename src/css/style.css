@@ -20,17 +20,23 @@ header {
 
 header .logo,
 header .botao,
-header .player {
+header .botao-on {
     width: 30px;
 
 }
+header #botao-alterar-musica {
+    background-color: none;
+}
 
-header .logo-pokemon{
+header .logo-pokemon {
     width: 200px; 
+}
+header .tema-chapeu {
+    text-decoration: none;
 }
 
 header #botao-alterar-tema,
-header #botao-player {
+header #botao-alterar-musica {
     background: none;
     border: none;
 }
@@ -44,7 +50,7 @@ header .logo-pokemon:hover {
 header .logo:hover,
 header .botao:hover,
 main .cartao-pokemon:hover,
-header .player:hover {
+header .botao-on:hover {
     transform: scale(1.1);
     cursor: pointer;
     transition: 0.3s ease-in-out;
