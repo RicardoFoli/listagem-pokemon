@@ -6,7 +6,7 @@ body {
     color: #333333;
 }
 
-body.modo-escuro {
+body.modo-escuro .botao-on {
     background-color: #212121;
     color: #f5f5f5;
 }
@@ -24,7 +24,7 @@ header .botao {
 
 }
 header .botao-on {
-    height: 23px;
+    height: 23.5px;
     width: 30px;
 }
 

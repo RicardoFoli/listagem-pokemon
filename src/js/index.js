@@ -6,6 +6,8 @@ const imagemBotaoTrocaDeAudio = document.querySelector(".botao-on");
 const botaoPlayer = (document.getElementById("botao-player"));
 const imagemBotaoAudioDesligado = document.querySelector(".player")
 
+var audio = new Audio('./src/Audios/PokémonKaraoke.mp3');
+var modoMusicaOn = body.classList.contains("modo-on");
 
 imagemBotaoTrocaDeAudio.setAttribute("src", "./src/imagens/musica-off.png");
 
@@ -23,8 +25,6 @@ botaoAlterarTema.addEventListener("click", () => {
                 imagemBotaoTrocaDeTema.setAttribute("src", "./src/imagens/moon.png");
         }
 });
-
-var modoMusicaOn = body.classList.contains("modo-on");
 
 botaoAlterarMusica.addEventListener("click", () => {
         this.modoMusicaOn = body.classList.contains("modo-on");
@@ -44,4 +44,3 @@ botaoAlterarMusica.addEventListener("click", () => {
         
 });
 
-var audio = new Audio('./src/Audios/PokémonKaraoke.mp3');

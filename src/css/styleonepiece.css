@@ -20,10 +20,16 @@ header {
 
 
 header .logo,
-header .botao,
-header .botao-on {
+header .botao {
     width: 30px;
 
+}
+header .botao-on {
+    height: 23px;
+    width: 30px;
+}
+.botao-on.modo-escuro {
+    box-shadow: rgb(255, 255, 255);
 }
 
 header .logo-onepiece{
